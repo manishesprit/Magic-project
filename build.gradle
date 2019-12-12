@@ -15,11 +15,18 @@ buildscript {
 }
 
 allprojects {
+    group 'com.app.magiclib'
+    version '1.0.0'
     repositories {
         google()
         jcenter()
         
     }
+}
+
+ext {
+    compileSdkVersion = 29
+    buildToolsVersion = "29.0.2"
 }
 
 task clean(type: Delete) {
