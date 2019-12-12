@@ -1,1 +1,2 @@
-include ':app', ':magiclib'
+include ':app'
+include ':magiclib'
