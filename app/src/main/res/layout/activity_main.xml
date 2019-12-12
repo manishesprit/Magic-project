@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnShowAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog" />
+
+    <Button
+        android:id="@+id/btnShowAlertWithListener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog With Listener" />
+
+    <Button
+        android:id="@+id/btnShowConfirmAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Dialog" />
+
+    <Button
+        android:id="@+id/btnShowConfirmWithButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Dialog With Button" />
+
+    <Button
+        android:id="@+id/btnShowProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progress Dialog" />
+
+</LinearLayout>
